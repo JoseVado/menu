@@ -1,9 +1,10 @@
 html, body{
     margin: 0px;
+    background-color: #f2e2e2;
 }
 
 header {
-    background-color: #EB8716;
+    background-color: #c88e83;
     color: #fff;
     width: 98%;
     height: 200px;
@@ -18,20 +19,29 @@ header h1{
 }
 
 .wrapper {
-    background-color: #90CEE8;
+    background-color: #d7a9a9;
     width: 98%;
-    height: 400px;
     margin: auto;
 }
 
-.wrapper tr{
+.pagina{
+    width: 200px;
+    height: 200px;
+    margin: 10px 20px 10px 20px;
+    transition: background-color 100ms ease-out 100ms
+}
 
-    background-color: #006F9E;
+.pagina:hover{
+    background-color: #f2e2e2;
+}
+
+table {
     margin: auto;
 }
+
 
 footer {
-    background-color: #006F9E;
+    background-color: #ba7b7c;
     color: #fff;
     width: 98%;
     height: 60px;
